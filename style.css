@@ -1,3 +1,60 @@
-#yellow {
+.yellow {
   background-color: yellow;
+  opacity: 0.5;
+}
+body{
+  background-color: #FEE140;
+  background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+
+}
+.circle{
+  border-radius: 0 70px 0 70px;
+  margin-left: 200px;
+
+}
+.com{
+  border-radius: 100%;
+  padding: 100px;
+  margin-left: 200px;
+}
+p,img{
+  border-style: outset;
+  border-color: #0779e4;
+  text-indent: 20px;
+
+}
+hr{
+
+  border-style: dotted none none;
+  border-color: #ffd31d;
+  border-width: 5px;
+  width: 5%;
+}
+h1,h3{
+  color: #ff6363;
+  font-family: cursive;
+  letter-spacing: 2px;
+
+}
+.sha{
+  text-shadow: 3px 3px 5px yellow;
+
+}
+.back{
+  border-style: none solid none solid;
+  border-color: red;
+  background-color: #ff9d76;
+  width: 150px;
+  height: 30px;
+}
+.ba{
+  border-style: none solid none solid;
+  border-color: red;
+  background-color: #ff9d76;
+  width: 25%;
+  height: 40px;
+}
+.hov:hover{
+  background-color: #ffcccc;
+  text-shadow: 5px 10px 8px blue;
 }
